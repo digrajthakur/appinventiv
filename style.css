@@ -247,7 +247,7 @@
 
  .case-study-card {
      flex: 0 0 30%;
-     background: #111;
+     background: #1f1e1e;
      padding: 1.5rem;
      border-radius: 12px;
      scroll-snap-align: start;
