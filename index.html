@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appinventiv Hero Section</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="logo-slider.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">appinventiv</div>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <nav class="nav-menu" id="nav-menu">
+            <ul class="nav-links">
+                <li><a href="#">LET’S TALK AI</a></li>
+                <li class="has-submenu">
+                    <a href="#" onclick="toggleSubmenu(event)">ABOUT</a>
+                    <div class="submenu">
+                        <a href="#">Who We Are</a>
+                        <a href="#">Leadership</a>
+                        <a href="#">Careers</a>
+                    </div>
+                </li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">INDUSTRIES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">RESOURCES</a></li>
+                <li><a href="#" class="btn-primary">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <section class="hero">
+    <div class="hero-content">
+      <h1>Meet The Digital Drivers Of Global Disruptors</h1>
+      <p>We catalyze business growth by reimagining digital experiences that conquer complex challenges through innovation and agility.</p>
+      <a href="#" class="btn-secondary">Consult Our Experts</a>
+    </div>
+  </section> -->
+
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="images/Ai Hand_1without.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Meet The Digital Drivers Of Global Disruptors</h1>
+            <p>We catalyze business growth by reimagining digital experiences that conquer complex challenges through
+                innovation and agility.</p>
+            <a href="#" class="btn-secondary">Consult Our Experts</a>
+        </div>
+    </section>
+
+    <!-- slider-logo -->
+
+
+    <div class="container">
+        <h2 class="title inline-richtext h2 logos">
+            <strong>Our Partners</strong>
+        </h2>
+        <div class="logo-slider">
+            <img src="images/amazon.png" alt="Amazon">
+            <img src="images/bigw.jpg" alt="Bunnings">
+            <img src="images/bunning-icon.png" alt="MyDeal">
+            <img src="images/everyday.jpg" alt="OfficeCatch">
+            <img src="images/mydeal.png" alt="Bigw">
+            <img src="images/OfficeCatch.png" alt="Everyday">
+            <!-- Duplicated logos for seamless scroll -->
+            <img src="images/amazon.png" alt="Amazon">
+            <img src="images/bigw.jpg" alt="Bunnings">
+            <img src="images/bunning-icon.png" alt="MyDeal">
+            <img src="images/everyday.jpg" alt="OfficeCatch">
+            <img src="images/mydeal.png" alt="Bigw">
+            <img src="images/OfficeCatch.png" alt="Everyday">
+        </div>
+    </div>
+
+    <!-- case-study -->
+
+    <section class="case-studies">
+        <h2 class="section-title">Highlighted Case Studies</h2>
+        <div class="case-studies-container">
+            <div class="case-study-card fade-in">
+                <img src="images/blockchain.webp" alt="Case Study 1">
+                <h3>Trade Finance Blockchain Solutions: The Future of Cross-Border Transactions</h3>
+                <p>Revolutionized eCommerce with a scalable platform for global reach.</p>
+                <a href="#" class="btn-secondary">Read More</a>
+            </div>
+            <div class="case-study-card fade-in">
+                <img src="images/blockchaine-1.webp" alt="Case Study 2">
+                <h3>What is Layer 3 Blockchain: The Future of Scalability and Decentralization</h3>
+                <p>Built a HIPAA-compliant mobile app for seamless patient engagement.</p>
+                <a href="#" class="btn-secondary">Read More</a>
+            </div>
+            <div class="case-study-card fade-in">
+                <img src="images/smart-contracts.webp" alt="Case Study 3">
+                <h3>Smart Contracts in DeFi: Understanding Their Role in Decentralized Systems</h3>
+                <p>Transformed legacy banking systems into modern digital workflows.</p>
+                <a href="#" class="btn-secondary">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- explore section -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-box">
+                <h2>35+</h2>
+                <h4>Industries Mastered</h4>
+                <p>With our agility & engineering expertise, we equip your critical business functions with customized
+                    tech, and expand digital capabilities.</p>
+            </div>
+            <div class="stat-box">
+                <h2>1600+</h2>
+                <h4>Tech Evangelists</h4>
+                <p>We are a dynamic team of technology enthusiasts and experts passionately driven to achieve the best
+                    results for our clients.</p>
+            </div>
+            <div class="stat-box">
+                <h2>3000+</h2>
+                <h4>Solutions Designed And Delivered</h4>
+                <p>We have empowered businesses with thousands of successful futuristic solutions that have helped them
+                    grow and scale.</p>
+            </div>
+            <div class="stat-box">
+                <h2>500+</h2>
+                <h4>Legacy Processes Transformed</h4>
+                <p>We help businesses achieve their digital transformation goals by seamlessly integrating cutting-edge
+                    technologies into their legacy systems.</p>
+            </div>
+            <div class="stat-box">
+                <h2>05+</h2>
+                <h4>Strategic Federal Partnerships</h4>
+                <p>We drive collaborative initiatives that address critical challenges and deliver impactful solutions.
+                </p>
+            </div>
+            <div class="cta-box">
+                <h3>Ready to innovate and drive an impact?</h3>
+                <a href="#" class="btn-primary">Partner With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- digital -->
+
+    <section>
+        <h2>Navigate The Digital Frontier With Our Engineering Excellence</h2>
+
+        <div class="grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="icon">📱</div>
+                <h3>Mobile App Development</h3>
+                <p>We build intuitive, responsive mobile apps tailored to meet your specific business needs and enhance
+                    user engagement.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="icon">💻</div>
+                <h3>Software Development</h3>
+                <p>From custom development to system upgrades, we craft software that enhances operational efficiency
+                    and drives innovation.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="icon">🔄</div>
+                <h3>Digital Transformation</h3>
+                <p>We help businesses stay competitive by transforming legacy systems with modern, digital-first
+                    solutions that drive growth.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="icon">💡</div>
+                <h3>Ideation And Design Strategy</h3>
+                <p>Our strategic ideation and design processes ensure your digital products are not only functional but
+                    also well-resonated with users.</p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+                <div class="icon">⚙️</div>
+                <h3>IT Consulting</h3>
+                <p>We provide expert IT consulting services to help your organization navigate complex technology
+                    decisions.</p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+                <div class="icon">🔧</div>
+                <h3>DevOps</h3>
+                <p>Our DevOps services streamline development and operations to accelerate project timelines and improve
+                    product quality.</p>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="card">
+                <div class="icon">☁️</div>
+                <h3>Cloud Managed Services</h3>
+                <p>We manage your cloud infrastructure end-to-end, ensuring it's optimized, secure, and cost-effective.
+                </p>
+            </div>
+
+            <!-- CTA Card 8 -->
+            <div class="card cta">
+                <h3>Our Services</h3>
+                <a href="#services">Explore →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- sticky section -->
+
+    <div class="section">
+        <div class="left">
+            <h1>We Create New Solutions And Transform Existing Ones With Technologies That Beat Industry-Best Timelines
+            </h1>
+            <div class="card">
+                <h2>Fuel Your Digital-First Idea</h2>
+                <p>With 1600+ Transformation Experts</p>
+                <button>Innovate With Us</button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="service">
+                <h3>Artificial Intelligence</h3>
+                <p>We leverage our AI Development services to craft intelligent solutions that streamline operations and
+                    enhance decision-making capabilities.</p>
+            </div>
+            <div class="service">
+                <h3>Generative AI</h3>
+                <p>We utilize Generative AI technology to create solutions that produce new content, automate creative
+                    processes and enhance user experiences.</p>
+            </div>
+            <div class="service">
+                <h3>Machine Learning</h3>
+                <p>We use ML to build intelligent systems that analyze data patterns and predict outcomes while
+                    continuously improving operations.</p>
+            </div>
+            <div class="service">
+                <h3>Computer Vision</h3>
+                <p>We employ computer vision to analyze visual data, automate image processing tasks and enhance the
+                    accuracy and speed of visual recognition systems.</p>
+            </div>
+            <div class="service">
+                <h3>Cloud</h3>
+                <p>We offer scalable and secure cloud consulting services that enhance flexibility and reduce IT
+                    overhead, allowing your team to focus on business growth.</p>
+            </div>
+            <div class="service">
+                <h3>Data Science And Analytics</h3>
+                <p>We leverage data to extract actionable insights, helping your business make informed decisions and
+                    optimize operations.</p>
+            </div>
+            <div class="service">
+                <h3>IoT</h3>
+                <p>We create IoT apps that connect various devices seamlessly, boosting efficiency and opening new
+                    possibilities for enhanced automation and monitoring.</p>
+            </div>
+            <div class="service">
+                <h3>AR/VR</h3>
+                <p>We design and develop immersive AR and VR applications that offer engaging and interactive user
+                    experiences.</p>
+            </div>
+            <div class="service">
+                <h3>Blockchain</h3>
+                <p>We develop blockchain solutions that enhance transparency and security across sectors like finance,
+                    retail, healthcare, and manufacturing.</p>
+            </div>
+            <div class="service">
+                <h3>Business Intelligence</h3>
+                <p>We empower your business with BI tools that provide clear, concise data visualization, helping your
+                    team to understand trends and drive business performance.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- arrow slider -->
+
+    <section class="awards-section">
+        <div class="awards-header">
+            <h2>Our Growth Journey As A Mobile App Development Company Has Bagged A Few Reputed Accolades As Well</h2>
+            <div class="carousel-nav">
+                <button class="arrow-btn" id="prevBtn">&#8592;</button>
+                <button class="arrow-btn" id="nextBtn">&#8594;</button>
+            </div>
+        </div>
+
+        <div class="carousel-wrapper">
+            <div class="carousel-track" id="carousel-track">
+                <!-- Repeat this block as needed -->
+                <div class="award-card">
+                    <img src="images/OfficeCatch.png" alt="My Deal">
+                    <h4>2025</h4>
+                    <p>Fastest-Growing Company</p>
+                </div>
+                <div class="award-card">
+                    <img src="images/amazon.png" alt="Amazon">
+                    <h4>2025</h4>
+                    <p>Top Android & Chatbot Development Company</p>
+                </div>
+                <div class="award-card">
+                    <img src="images/wisewaytec-logo.png" alt="wisewaytec-logo">
+                    <h4>2024–2023</h4>
+                    <p>Fastest Growing Technology Company</p>
+                </div>
+                <div class="award-card">
+                    <img src="images/OfficeCatch.png" alt="Mobile App Daily">
+                    <h4>2024</h4>
+                    <p>Fastest Growing AI Development Company</p>
+                </div>
+                <div class="award-card">
+                    <img src="images/mydeal.png" alt="My Deal">
+                    <h4>2024</h4>
+                    <p>Preferred Partner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- unified -->
+
+    <section class="industries-section">
+        <h2>A Unified Vision That Caters To<br>Diverse Industry Demands</h2>
+
+        <div class="industry-grid">
+            <a href="/healthcare" class="industry-box">
+                <div class="industry-icon">❤️</div>
+                <div class="industry-title">Healthcare</div>
+            </a>
+            <a href="/finance" class="industry-box">
+                <div class="industry-icon">💰</div>
+                <div class="industry-title">Finance</div>
+            </a>
+            <a href="/restaurant" class="industry-box">
+                <div class="industry-icon">🍽️</div>
+                <div class="industry-title">Restaurant</div>
+            </a>
+            <a href="/ecommerce" class="industry-box">
+                <div class="industry-icon">🛒</div>
+                <div class="industry-title">eCommerce</div>
+            </a>
+            <a href="/electric-vehicle" class="industry-box">
+                <div class="industry-icon">🔋</div>
+                <div class="industry-title">Electric Vehicle (EV)</div>
+            </a>
+            <a href="/saas" class="industry-box">
+                <div class="industry-icon">💻</div>
+                <div class="industry-title">SaaS</div>
+            </a>
+            <a href="/travel" class="industry-box">
+                <div class="industry-icon">🌍</div>
+                <div class="industry-title">Travel</div>
+            </a>
+            <a href="/entertainment" class="industry-box">
+                <div class="industry-icon">🎵</div>
+                <div class="industry-title">Entertainment</div>
+            </a>
+            <a href="/on-demand" class="industry-box">
+                <div class="industry-icon">⚡</div>
+                <div class="industry-title">On-Demand</div>
+            </a>
+            <a href="/social-media" class="industry-box">
+                <div class="industry-icon">💬</div>
+                <div class="industry-title">Social Media</div>
+            </a>
+            <a href="/logistics" class="industry-box">
+                <div class="industry-icon">🚚</div>
+                <div class="industry-title">Logistics</div>
+            </a>
+            <a href="/education" class="industry-box">
+                <div class="industry-icon">📘</div>
+                <div class="industry-title">Education</div>
+            </a>
+            <a href="/real-estate" class="industry-box">
+                <div class="industry-icon">🏠</div>
+                <div class="industry-title">Real Estate</div>
+            </a>
+            <a href="/aviation" class="industry-box">
+                <div class="industry-icon">✈️</div>
+                <div class="industry-title">Aviation</div>
+            </a>
+            <a href="/agriculture" class="industry-box">
+                <div class="industry-icon">🌾</div>
+                <div class="industry-title">Agriculture</div>
+            </a>
+            <a href="/telecom" class="industry-box">
+                <div class="industry-icon">📡</div>
+                <div class="industry-title">Telecom</div>
+            </a>
+            <a href="/oil-gas" class="industry-box">
+                <div class="industry-icon">🛢️</div>
+                <div class="industry-title">Oil and Gas</div>
+            </a>
+            <a href="/automotive" class="industry-box">
+                <div class="industry-icon">🚗</div>
+                <div class="industry-title">Automotive</div>
+            </a>
+            <a href="/insurance" class="industry-box">
+                <div class="industry-icon">🛡️</div>
+                <div class="industry-title">Insurance</div>
+            </a>
+            <a href="/manufacturing" class="industry-box">
+                <div class="industry-icon">🏭</div>
+                <div class="industry-title">Manufacturing</div>
+            </a>
+        </div>
+
+        <a href="/industries" class="explore-button">Explore More In Industries</a>
+    </section>
+
+    <!-- Technology section -->
+    <section class="tech-section">
+        <h2>Tech Capabilities Driving Digital<br>Transformation For Our Clients</h2>
+        <div class="tech-wrapper">
+            <div class="tech-menu">
+                <ul id="menuList">
+                    <li class="active" data-tab="frontend">Frontend Programming Languages</li>
+                    <li data-tab="backend">Backend Programming Languages</li>
+                    <li data-tab="mobile">Mobile</li>
+                    <li data-tab="bigdata">Big Data</li>
+                    <li data-tab="database">Databases / Data Storages</li>
+                    <li data-tab="cloud">Cloud DB, Warehouses And Storage</li>
+                </ul>
+            </div>
+            <div class="tech-content" id="techContent">
+            </div>
+        </div>
+    </section>
+
+    <!-- from section -->
+
+    <section class="consultation-section">
+        <div class="consultation-text">
+            <h2>Our Technology Experts<br>Are Change Catalysts</h2>
+            <p>Book A Free Consultation Call With Our Experts Today</p>
+        </div>
+
+        <div class="form-container">
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="E-mail ID*" required>
+                <input type="tel" placeholder="Contact Number*" required>
+
+                <select class="values" required>
+                    <option value="">Select a Budget Range</option>
+                    <option value="1">Below $5,000</option>
+                    <option value="2">$5,000 - $20,000</option>
+                    <option value="3">$20,000 - $50,000</option>
+                    <option value="4">Above $50,000</option>
+                </select>
+
+                <textarea rows="4"
+                    placeholder="Describe Your Project/Idea In Brief (Helps Us Come Back Better Prepared)*"
+                    required></textarea>
+
+                <div class="checkbox-row">
+                    <label><input type="checkbox"> Include Copy of a Non-Disclosure Agreement</label>
+                    <div class="form-row">
+                        7 + 6 =
+                        <input type="text" maxlength="2" required>
+                    </div>
+                </div>
+
+                <button type="submit">Request Proposal</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- faq -->
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <div class="faq-question">
+                    What mobile app development services do you offer?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    We offer end-to-end mobile app development including UI/UX design, native & cross-platform
+                    development, testing, deployment, and maintenance.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    What software development services do you offer?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    We provide full-cycle software development services: from requirement analysis to final delivery
+                    including enterprise, web, and custom software.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    What is the average cost and timeline for developing a mobile app?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    Cost and timeline depend on complexity. Simple apps may cost $5,000–$10,000 and take 1–2 months;
+                    complex ones may go beyond $50,000 and 6+ months.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    How do you ensure the security and quality of the software you develop?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    We follow secure coding standards, conduct regular audits, and perform extensive QA/testing (manual
+                    & automated) for quality assurance.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do you offer app maintenance and support services?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, we offer ongoing support, updates, bug fixing, and performance monitoring to ensure long-term
+                    success of your application.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do you assist with software integration and data migration?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    Absolutely! We provide seamless integration with third-party systems and ensure secure and smooth
+                    data migration processes.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    Do you develop software for both mobile and web platforms?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    Yes, we specialize in both mobile (Android, iOS) and web platforms using the latest technologies for
+                    maximum performance.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    What is your approach to developing mobile apps and software?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    We follow agile methodologies, regular client collaboration, user-focused design, iterative
+                    development, and testing for best outcomes.
+                </div>
+            </div>
+            <div class="faq-item open">
+                <div class="faq-question">
+                    What makes Appinventiv the best software and mobile app development company?
+                    <span class="arrow">⬆</span>
+                </div>
+                <div class="faq-answer">
+                    Appinventiv stands out due to its global client base, award-winning solutions, and trusted
+                    partnerships with brands like KFC, Domino's, Adidas, and IKEA. Recognized among the top 50
+                    fastest-growing tech companies in India by Deloitte, our approach emphasizes innovation and client
+                    success.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    What development methodologies does Appinventiv prefer to use?
+                    <span class="arrow">⬇</span>
+                </div>
+                <div class="faq-answer">
+                    We primarily use Agile, Scrum, and DevOps to ensure fast, flexible, and transparent development with
+                    continuous delivery and iteration.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- About -->
+            <div class="footer-column">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">Our company</a></li>
+                    <li><a href="#">Core Team</a></li>
+                    <li>
+                        <a href="#">Career</a>
+                        <span class="click-badge">CLICK HERE</span>
+                    </li>
+                    <li><a href="#">CSR</a></li>
+                    <li><a href="#">How We Work</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">iOS App Development</a></li>
+                    <li><a href="#">Android App Development</a></li>
+                    <li><a href="#">Software Development</a></li>
+                    <li><a href="#">Ideation & Design</a></li>
+                    <li><a href="#">Mobile App Dev</a></li>
+                    <li><a href="#">Research & Innovation</a></li>
+                    <li><a href="#">Digital Transformation</a></li>
+                    <li><a href="#">more...</a></li>
+                </ul>
+            </div>
+
+            <!-- Technologies -->
+            <div class="footer-column">
+                <h4>Technologies</h4>
+                <ul>
+                    <li><a href="#">Blockchain</a></li>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">AR and VR</a></li>
+                    <li><a href="#">Cloud Computing</a></li>
+                    <li><a href="#">Internet of Things</a></li>
+                    <li><a href="#">Metaverse Development</a></li>
+                    <li><a href="#">NFT Development</a></li>
+                    <li><a href="#">more...</a></li>
+                </ul>
+            </div>
+
+            <!-- Industries -->
+            <div class="footer-column">
+                <h4>Industries</h4>
+                <ul>
+                    <li><a href="#">Healthcare</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">SaaS</a></li>
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">On-Demand</a></li>
+                    <li><a href="#">eCommerce</a></li>
+                    <li><a href="#">Logistics</a></li>
+                    <li><a href="#">more...</a></li>
+                </ul>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="footer-column">
+                <h4>Portfolio</h4>
+                <ul>
+                    <li><a href="#">KFC</a></li>
+                    <li><a href="#">Adidas</a></li>
+                    <li><a href="#">IKEA</a></li>
+                    <li><a href="#">Hukoomi</a></li>
+                    <li><a href="#">Domino's</a></li>
+                    <li><a href="#">Pizza Hut</a></li>
+                    <li><a href="#">YouCOMM</a></li>
+                    <li><a href="#">more...</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer-column">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press Release</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Ebooks</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="bottom-left">
+                <img src="https://images.dmca.com/Badges/dmca_protected_16_120.png?ID=b5a05e2b-8bc4-48cf-9a67-1f5362e3cb70"
+                    alt="DMCA Badge" height="30" />
+                <span>Full stack mobile (iOS, Android) and web app design and development agency</span>
+            </div>
+            <div class="bottom-right">
+                <span>Statutory legal information |</span>
+                <span>2025–2026 © Deepanshu |</span>
+                <a href="#">SiteMap</a> |
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
