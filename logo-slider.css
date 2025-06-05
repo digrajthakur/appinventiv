@@ -13,7 +13,7 @@
 
  .logo-slider {
      display: flex;
-     animation: scroll 20s linear infinite;
+     animation: scroll 15s linear infinite;
      width: max-content;
      padding-top: 20px;
  }
