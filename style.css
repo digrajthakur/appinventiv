@@ -23,6 +23,34 @@
  .case-studies {
      overflow-y: hidden;
  }
+.announcement-bar {
+      background-color: #0d6efd; 
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .announcement-bar span {
+      margin-right: 8px;
+    }
+
+    .announcement-bar a {
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .announcement-bar a:hover {
+      color: #ffc107;
+    }
 
  .navbar {
      background: rgba(0, 0, 0, 0.85);
@@ -1040,6 +1068,16 @@
          align-items: center;
          text-align: center;
      }
+         .announcement-bar {
+        font-size: 14px;
+        padding: 8px 15px;
+        flex-direction: column;
+      }
+
+      .announcement-bar span {
+        margin-bottom: 5px;
+        margin-right: 0;
+      }
  }
 
 
