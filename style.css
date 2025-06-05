@@ -659,6 +659,9 @@
      .awards-header h2 {
          font-size: 1.4rem;
      }
+      .case-study-card {
+         min-width: 256px;
+     }
  }
 
  /* unified */
