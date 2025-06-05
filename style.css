@@ -26,9 +26,10 @@
 
   .logo .whatsapp {
     position: fixed;
-    bottom: 35px;
-    right: 20px;
+    bottom: 25px;
+    right: 25px;
     width: 4rem;
+    z-index: 9;
  }
        
 .announcement-bar {
