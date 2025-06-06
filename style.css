@@ -253,7 +253,7 @@
      overflow-x: auto;
      scroll-snap-type: x mandatory;
      scroll-padding: 1rem;
-    /*justify-content: center;*/
+/*     justify-content: center; */
  }
 
  .case-study-card {
@@ -636,7 +636,11 @@
          min-width: 256px;
      }
  }
-
+@media (min-width:1025px){
+     .case-studies-container {
+    justify-content: center;
+ }
+}
  /* unified */
 
  .industries-section {
