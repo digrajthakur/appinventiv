@@ -31,35 +31,7 @@
     width: 3.5rem;
     z-index: 9;
  }
-       
-.announcement-bar {
-      background-color: #0d6efd; 
-      color: white;
-      text-align: center;
-      padding: 10px 20px;
-      font-family: Arial, sans-serif;
-      font-size: 13px;
-      font-weight: bold;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .announcement-bar span {
-      margin-right: 8px;
-    }
-
-    .announcement-bar a {
-      color: white;
-      text-decoration: underline;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    .announcement-bar a:hover {
-      color: #ffc107;
-    }
+     
 
  .navbar {
      background: rgba(0, 0, 0, 0.85);
@@ -281,7 +253,7 @@
      overflow-x: auto;
      scroll-snap-type: x mandatory;
      scroll-padding: 1rem;
-     justify-content: center;
+    /*justify-content: center;*/
  }
 
  .case-study-card {
